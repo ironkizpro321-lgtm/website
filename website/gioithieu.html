@@ -8,26 +8,53 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav><a href="index.html">Trang chủ</a><a href="gioithieu.html" class=on>Giới thiệu</a><a href="truong.html">Trường THPT</a><a href="sothich.html">Sở thích</a><a href="camnhan.html">Cảm nhận</a><a href="uocmo.html">Ước mơ</a></nav>
-<header class="hero solo">
-<div><h1>Xin chào, mình là Nguyễn Bá Duy</h1><p>Mình là học sinh lớp CNTT3.K24, rất vui được chia sẻ về bản thân qua trang web nhỏ này.</p></div>
+<nav><a href="index.html">Trang chủ</a><a href="gioithieu.html" class="on">Giới thiệu</a><a href="truong.html">Trường THPT</a><a href="sothich.html">Sở thích</a><a href="camnhan.html">Cảm nhận</a><a href="uocmo.html">Ước mơ</a></nav>
+<header class="hero solo profile-hero">
+  <div>
+    <span class="profile-eyebrow">HỒ SƠ CÁ NHÂN</span>
+    <h1>Xin chào, mình là <span>Nguyễn Bá Duy</span></h1>
+    <p>Mình là sinh viên ngành Công nghệ thông tin tại Trường Đại học Hải Phòng. Đây là một góc nhỏ để bạn hiểu thêm về mình.</p>
+  </div>
 </header>
-<main>
-<div style="display:flex; align-items:center; gap:25px; margin:30px 0; flex-wrap:wrap;">
-  <img src="images/dhhp.jpg" alt="Logo trường Đại Học Hải Phòng" style="width:180px; height:180px; object-fit:cover; border-radius:18px; box-shadow:0 8px 20px rgba(0,0,0,0.12);">
-</div>
-<h2>Thông tin cơ bản</h2>
-<div class="facts">
-<div><b>Họ và tên:</b> Nguyễn Bá Duy</div>
-<div><b>Ngày sinh:</b> 22/11/2005</div>
-<div><b>Quê quán:</b> Hải Phòng</div>
-<div><b>Lớp:</b> CNTT3.K24, Khóa 24</div>
-<div><b>Trường:</b> Đại Học Hải Phòng</div>
-</div>
-<h2>Về mình</h2>
-<p>Mình là một người hiền lành, chăm chỉ và thích tìm hiểu những điều mới. Mình yêu thích học tập, công nghệ và các hoạt động thể thao, đặc biệt là đá cầu. Mình muốn phát triển bản thân mỗi ngày và hướng tới một tương lai tốt đẹp trong ngành công nghệ thông tin.</p>
-<h2>Điểm mạnh</h2>
-<ul><li>Chăm chỉ và có trách nhiệm với công việc.</li><li>Ham học hỏi, thích tìm hiểu kiến thức mới.</li><li>Biết làm việc nhóm và giữ tinh thần tích cực.</li></ul>
+<main class="profile-main">
+  <section class="profile-card" aria-label="Thông tin cá nhân">
+    <div class="profile-mark">
+      <img src="images/dhhp.jpg" alt="Logo Trường Đại học Hải Phòng">
+      <span>HẢI PHÒNG</span>
+    </div>
+    <div class="profile-details">
+      <div class="profile-section-heading">
+        <div>
+          <span class="profile-eyebrow">RẤT VUI ĐƯỢC GẶP BẠN</span>
+          <h2>Thông tin cơ bản</h2>
+        </div>
+        <span class="profile-status">Sinh viên CNTT</span>
+      </div>
+      <dl class="facts profile-facts">
+        <div><dt>Họ và tên</dt><dd>Nguyễn Bá Duy</dd></div>
+        <div><dt>Ngày sinh</dt><dd>22/11/2005</dd></div>
+        <div><dt>Quê quán</dt><dd>Hải Phòng</dd></div>
+        <div><dt>Lớp</dt><dd>CNTT3.K24, Khóa 24</dd></div>
+        <div><dt>Trường</dt><dd>Đại học Hải Phòng</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="profile-about">
+    <div class="profile-about-copy">
+      <span class="profile-eyebrow">ĐÔI ĐIỀU VỀ MÌNH</span>
+      <h2>Mỗi ngày là một cơ hội để tiến bộ</h2>
+      <p>Mình là người hiền lành, chăm chỉ và luôn thích tìm hiểu những điều mới. Mình yêu thích học tập, công nghệ và các hoạt động thể thao, đặc biệt là đá cầu. Mình muốn phát triển bản thân mỗi ngày và hướng tới một tương lai tốt đẹp trong ngành Công nghệ thông tin.</p>
+    </div>
+    <div class="profile-strengths">
+      <h2>Điểm mạnh</h2>
+      <ul>
+        <li><span aria-hidden="true">01</span>Chăm chỉ và có trách nhiệm với công việc.</li>
+        <li><span aria-hidden="true">02</span>Ham học hỏi, thích tìm hiểu kiến thức mới.</li>
+        <li><span aria-hidden="true">03</span>Biết làm việc nhóm và giữ tinh thần tích cực.</li>
+      </ul>
+    </div>
+  </section>
 </main>
 <footer>© 2026 Nguyễn Bá Duy</footer>
 </body>
